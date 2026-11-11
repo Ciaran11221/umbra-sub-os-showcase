@@ -250,8 +250,8 @@ one. An old phone, left permanently on the home network with its screen off,
 running a script with exactly one job: accept an authenticated request over
 the VPN mesh, and put a magic packet on the *local* wire it's actually sitting
 on. It doesn't talk to Core, doesn't import anything from the rest of the
-system, and doesn't need Shadow to be working — which is the one property
-that actually matters, since it exists specifically for the moment Shadow
+system, and doesn't need Umbra to be working — which is the one property
+that actually matters, since it exists specifically for the moment Umbra
 isn't.
 
 The main phone now tries both routes on every wake attempt: the direct packet,
@@ -1285,7 +1285,7 @@ trust the measurement, and check the ruler too.
 
 ## 20. The consistency feature that would have introduced an inconsistency
 
-**Symptom.** Shadow says a handful of fixed lines constantly — "Noted.",
+**Symptom.** Umbra says a handful of fixed lines constantly — "Noted.",
 "Still with you.", "Conversation mode on." In one three-and-a-half hour
 window, twelve of twenty-six spoken replies were repeats of five lines. Every
 one of them was a fresh synthesis, and this synthesiser is nondeterministic,

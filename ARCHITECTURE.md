@@ -7,7 +7,7 @@ The parts of the design worth explaining, and why they're built this way.
 ## Thin clients, thick core
 
 Every device runs the same thin client: capture audio, detect the wake phrase,
-send text to Core, play what comes back. Nothing about *what Shadow can do*
+send text to Core, play what comes back. Nothing about *what Umbra can do*
 lives on a device.
 
 Core owns skill routing, device arbitration, conversation state and voice
@@ -225,7 +225,7 @@ because "say that again" must not be suppressed by a repeat filter.
   network a trusted one. Identity asserted by the caller is not identity.
 - Personal data — location, interests, preferences, credentials — is local and
   git-ignored.
-- Nothing is inferred and quietly stored. Everything Shadow knows about you was
+- Nothing is inferred and quietly stored. Everything Umbra knows about you was
   stated on purpose, can be listed back, and can be removed. A profile that
   grows on its own is one you can't reason about.
 

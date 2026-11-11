@@ -1,4 +1,7 @@
-# Shadow
+# Umbra
+
+Umbra (Latin for shadow, which stays the codename: the code, folders, logs and
+wake phrase use it on purpose.)
 
 A private operating layer over a Windows desktop and an Android phone. No cloud
 service in the middle.
